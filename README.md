@@ -1,4 +1,4 @@
-# Employee Salary Prediction — Multivariate Linear Regression
+# Employee Salary Prediction: Multivariate Linear Regression
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
@@ -194,7 +194,7 @@ make clean
 
 - **Dataset size:** 514 rows limits the reliability of some subgroup analyses
   (e.g., non-degree holders, n = 18).
-- **Normality:** Shapiro-Wilk rejects H₀ — consider Box-Cox transformation or
+- **Normality:** Shapiro-Wilk rejects H₀ - consider Box-Cox transformation or
   a log-salary target.
 - **Missing signal:** 38% of variance is unexplained; performance, bonuses, and
   education quality are not captured.
@@ -208,9 +208,9 @@ make clean
 
 ## Data Source
 
-Dataset: `salary.csv` — column metadata 
+Dataset: `salary.csv` 
 
-Reference:
+Column metadata reference:
 [Salary metadata CSV](https://github.com/PhumlaniKubeka/StatisticalThinking/blob/master/Salary%20metadata.csv)
 
 ---
